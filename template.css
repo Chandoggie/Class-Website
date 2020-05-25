@@ -1,0 +1,49 @@
+h1 {
+    color:rgb(65, 57, 61);
+    background-color: transparent;
+    text-align: center;
+}
+h2 {
+    color:rgb(65, 57, 61);
+    background-color: transparent;
+    text-align: center;
+}
+h3 {
+    color:rgb(65, 57, 61);
+    background-color: transparent;
+    text-align: center;
+}
+p {
+    color:rgb(65, 57, 61);
+    background-color: transparent;
+    text-align: center;
+}
+a {
+    color:rgb(190, 30, 45);
+    background-color: transparent;
+    text-decoration: none;
+}
+li {
+    color:rgb(138, 140, 143);
+    background-color: transparent;
+    text-align: center;
+}
+ul {
+    display:table;
+    margin: 0 auto;
+}
+footer {
+    color:rgb(65, 57, 61);
+    background-color: transparent;
+    text-align: center;
+}
+.sitefooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
