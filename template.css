@@ -1,23 +1,4 @@
-h1 {
-    color:rgb(65, 57, 61);
-    background-color: transparent;
-    text-align: center;
-}
-h2 {
-    color:rgb(65, 57, 61);
-    background-color: transparent;
-    text-align: center;
-}
-h3 {
-    color:rgb(65, 57, 61);
-    background-color: transparent;
-    text-align: center;
-}
-p {
-    color:rgb(65, 57, 61);
-    background-color: transparent;
-    text-align: center;
-}
+/* Elements */ 
 a {
     color:rgb(190, 30, 45);
     background-color: transparent;
@@ -28,22 +9,76 @@ li {
     background-color: transparent;
     text-align: center;
 }
-ul {
-    display:table;
-    margin: 0 auto;
-}
 footer {
     color:rgb(65, 57, 61);
     background-color: transparent;
     text-align: center;
 }
-.sitefooter {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Classes */ 
+.sitefooter {
+    bottom: auto;
+    width: 100%;
+    background-color:rgb(65, 57, 61);
+}
+.paratext {
+    color:rgb(138, 140, 143);
+    background-color: transparent;
+    text-align: center;
+}
+.homeheaders {
+    color:rgb(65, 57, 61);
+    background-color: transparent;
+    text-align: center;
+}
+.homeimage {
+    height: 700px;
+    width: auto;
+}
+
+/* Navigation Classes */ 
+.navigation { /* .navigation = ul */ 
+    list-style-type: none;
+    padding: 0;
+    display: table;
+    margin: 0 auto;
+}
+.navigation li {
+    float: left;
+    background-color:rgb(65, 57, 61);
+}
+.navigation a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color:rgb(65, 57, 61);
+}
+
+.navigation a:hover:not(.active) {
+  background-color:rgb(138, 140, 143);
+  color: white;
+}
+.active {
+  color: white;
+}
+
+/* Font Classes for ease of use */
+.nofont {
+    font-family: none; 
+    font-weight: 500;
+}
+.font {
+    font-family: athelas,serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+.boldfont {
+    font-family: athelas,serif;
+    font-weight: 700;
+    font-style: normal;   
 }
