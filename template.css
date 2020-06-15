@@ -58,6 +58,19 @@ img {
 	margin: 0 auto;
 }
 
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
 
 /* Navigation */
 .navbar {
@@ -84,6 +97,10 @@ ul {
 	width: 100%;
     align-items: center;
 	padding: 0px 20%;
+}
+
+form {
+  text-align: center;
 }
 
 .actualnav {
@@ -121,10 +138,6 @@ li a:hover:not(.active) {
 
 .logo-div {
 	text-align: center;
-}
-
-.footernav {
-    padding: 0 15vw;
 }
 
 /* Font Classes for ease of use */

@@ -32,18 +32,52 @@
                 <li style="float: right;"><a href="/about.html" title="About" class="boldfont">About</a></li>
             </ul>
         <main>
-            <p>reservations.html</p><br/>
+            <table style="width: 59.46vw; text-align: center;" class="center">
+            <h1 class="homeheaders">Restaurant Hours:</h1>
+                <caption>Our Current Hours, Place Reservations Below</caption>
+                <tr><td>Monday: 1200 - 2000</td></tr>
+                <tr><td>Tuesday: 0900 - 2000</td></tr>
+                <tr><td>Wednesday: 0900 - 2000</td></tr>
+                <tr><td>Thursday: 0900 - 2000</td></tr>
+                <tr><td>Friday: 0900 - 2000</td></tr>
+                <tr><td>Saturday: 0900 - 1800</td></tr>
+                <tr><td>Sunday: CLOSED</td></tr>
+            </table>
+            
+            <div class="formbox" style="width: 59.46vw; margin-left: auto; margin-right: auto; padding-top: 25px;">
+                <h1 class="homeheaders">Place a Reservation:</h1>
+                    <p style="text-align: center;">A phone call will be placed to confirm your reservation.</p>
+                <form action="#">
+                    <label>First name:</label>
+                        <input type="text" placeholder="Jane"><br/><br/>
+                    <label>Last name:</label>
+                        <input type="text" placeholder="Doe"><br/><br/>
+                    <label>Phone Number:</label>
+                        <input type="tel" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br/><br/>
+                    <label>Day:</label>
+                        <select id="Date" name="date" >
+                            <option>Monday</option>
+                            <option>Tuesday</option>
+                            <option>Wednesday</option>
+                            <option>Thursday</option>
+                            <option>Friday</option>
+                            <option>Saturday</option>
+                        </select><br/><br/>
+                    <input type="submit" value="Place your reservation!">
+                </form>
+            </div>
+            
         </main> 
             <footer class="sitefooter"><!-- Footer displays text at the bottom of the webpage -->
-                <h3 class="boldfont" style="color: rgb(215, 228, 194); padding: 5px;">Contact Information:</h3>
+                <h3 class="boldfont" style="color: rgb(215, 228, 194); padding: 5px 0px;">Contact Information:</h3>
                 <div class="footernav">
-                    <ul style="padding: 0">
-                        <li><a href="https://twitter.com">Twitter</a></li>
-                        <li><a href="https://instagram.com">Instagram</a></li>
-                        <li><a href="https://facebook.com">Facebook</a></li>
-                        <li style="float: right"><a href="sitemap.html" class="nofont">Sitemap</a></li>
-                        <li style="float: right"><a href="tel:123-456-7890" class="nofont">Call Us!</a></li>
-                        <li style="float: right"><a href="mailto:Email@TownRestaurant.com" class="nofont">Email Us!</a></li>
+                    <ul style="padding: 0" >
+                        <li style="border-right: none;"><a href="https://twitter.com">Twitter</a></li>
+                        <li style="border-right: none;"><a href="https://instagram.com">Instagram</a></li>
+                        <li style="border-right: none;"><a href="https://facebook.com">Facebook</a></li>
+                        <li style="float: right; border-right: none;"><a href="sitemap.html" class="nofont">Sitemap</a></li>
+                        <li style="float: right; border-right: none;"><a href="tel:123-456-7890" class="nofont">Call Us!</a></li>
+                        <li style="float: right; border-right: none;"><a href="mailto:Email@TownRestaurant.com" class="nofont">Email Us!</a></li>
                     </ul>
                 </div>
                     <p style="color:rgb(215, 228, 194);">GRA-310 Digital Graphic Design for Web, Chandler C. 6/14/2020<br/>
