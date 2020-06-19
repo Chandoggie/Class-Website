@@ -21,6 +21,7 @@ p a {
 
 main {
     min-height: calc(100vh - 241px - 184px);
+    background-color: rgb(240, 240, 240);
 }
 
 .paratext {
