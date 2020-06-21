@@ -20,7 +20,7 @@
     
     <header class="navbar"><!-- Header is displayed at the top of the webpage -->
             <div class="logo-div">
-                <img src="/images/town_white.png" alt="TOWN Logo">
+                <img src="/images/town_white.png" style="width: auto; height: 176px;" alt="TOWN Logo">
             </div>
     </header>
             <ul class="actualnav">
@@ -34,8 +34,8 @@
         <main>
             <br/>
             <h1 class="homeheaders">Restaurant Hours:</h1>
-            <table style="width: 59.46vw; text-align: center;" class="center">
-                <caption>Our Current Hours, Place Reservations Below</caption>
+            <table style="width: 59.46vw; text-align: center; font-size: 25px;" class="center">
+                <tr class="top"><td>Our Current Hours, Place Reservations Below</td></tr>
                 <tr><td>Monday: 1200 - 2000</td></tr>
                 <tr><td>Tuesday: 0900 - 2000</td></tr>
                 <tr><td>Wednesday: 0900 - 2000</td></tr>
@@ -43,30 +43,30 @@
                 <tr><td>Friday: 0900 - 2000</td></tr>
                 <tr><td>Saturday: 0900 - 1800</td></tr>
                 <tr><td>Sunday: CLOSED</td></tr>
-            </table>
+            </table><br/>
             
-            <div class="formbox" style="width: 59.46vw; margin-left: auto; margin-right: auto; padding-top: 25px;">
-                <h1 class="homeheaders">Place a Reservation:</h1>
-                    <p style="text-align: center;">A phone call will be placed to confirm your reservation.</p>
+            <div class="formbox">
+                <h1 class="homeheaders" style="color: white;">Place a Reservation:</h1>
+                    <p style="text-align: center; font-size: 25px; color: white;">A phone call will be placed to confirm your reservation.</p>
                 <form action="#">
-                    <label>First name:</label>
+                    <label>First Name:</label>
                         <input type="text" placeholder="Jane"><br/><br/>
                     <label>Last name:</label>
                         <input type="text" placeholder="Doe"><br/><br/>
                     <label>Phone Number:</label>
                         <input type="tel" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br/><br/>
                     <label>Day:</label>
-                        <select id="Date" name="date" >
+                        <select id="Date" name="date" style="border-radius: 5px;">
                             <option>Monday</option>
                             <option>Tuesday</option>
                             <option>Wednesday</option>
                             <option>Thursday</option>
                             <option>Friday</option>
                             <option>Saturday</option>
-                        </select><br/><br/>
-                    <input type="submit" value="Place your reservation!">
+                        </select><br/><br/><br/>
+                    <input type="submit" class="forminput" value="Place your reservation! Click Here!">
                 </form>
-            </div>
+            </div><br/>
         </main> 
             <footer class="sitefooter"><!-- Footer displays text at the bottom of the webpage -->
                 <h3 class="boldfont" style="color: rgb(215, 228, 194); padding: 5px 0px;">Contact Information:</h3>
@@ -80,7 +80,7 @@
                         <li style="float: right; border-right: none; border-left: none;"><a href="mailto:Email@TownRestaurant.com" class="nofont">Email Us!</a></li>
                     </ul>
                 </div>
-                    <p style="color:rgb(215, 228, 194);">GRA-310 Digital Graphic Design for Web, Chandler C. 6/14/2020<br/>
+                    <p style="color:rgb(215, 228, 194);">GRA-310 Digital Graphic Design for Web, Chandler C. 6/21/2020<br/>
                     <a href="https://github.com/Chandoggie/Chandoggie.github.io">Source Available on GitHub</a>
                 </p>
             </footer>
