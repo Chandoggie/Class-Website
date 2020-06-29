@@ -20,7 +20,7 @@
     
     <header class="navbar"><!-- Header is displayed at the top of the webpage -->
             <div class="logo-div">
-                <img src="/images/town_white.png" style="width: auto; height: 176px;" alt="TOWN Logo">
+                <img src="/images/town_white.png" class="toplogo" alt="TOWN Logo">
             </div>
     </header>
             <ul class="actualnav">
@@ -29,26 +29,27 @@
                 <li><a href="/menu.html" title="Menu" class="boldfont">Menu</a></li>
                 <li><a href="/locations.html" title="Locations" class="boldfont">Locations</a></li>
                 <li><a href="/events.html" title="Events" class="boldfont">Events</a></li>
-                <li style="float: right;"><a href="/about.html" title="About" class="boldfont">About</a></li>
+                <li class="rightfloat"><a href="/about.html" title="About" class="boldfont">About</a></li>
             </ul>
         <main>
             <br/>
             <h1 class="homeheaders">Restaurant Hours:</h1>
-            <table style="width: 59.46vw; text-align: center; font-size: 25px;" class="center">
+            <table class="tablecss center">
                 <tr class="top"><td>Our Current Hours, Place Reservations Below</td></tr>
-                <tr><td>Monday: 1200 - 2000</td></tr>
-                <tr><td>Tuesday: 0900 - 2000</td></tr>
-                <tr><td>Wednesday: 0900 - 2000</td></tr>
-                <tr><td>Thursday: 0900 - 2000</td></tr>
-                <tr><td>Friday: 0900 - 2000</td></tr>
-                <tr><td>Saturday: 0900 - 1800</td></tr>
+                <tr><td>Monday: 11:00am - 8:00pm</td></tr>
+                <tr><td>Tuesday: 9:00am - 8:00pm</td></tr>
+                <tr><td>Wednesday: 9:00am - 8:00pm</td></tr>
+                <tr><td>Thursday: 9:00am - 8:00pm</td></tr>
+                <tr><td>Friday: 9:00am - 8:00pm</td></tr>
+                <tr><td>Saturday: 9:00am - 6:00pm</td></tr>
                 <tr><td>Sunday: CLOSED</td></tr>
             </table><br/>
             
             <div class="formbox">
-                <h1 class="homeheaders" style="color: white;">Place a Reservation:</h1>
-                    <p style="text-align: center; font-size: 25px; color: white;">A phone call will be placed to confirm your reservation.</p>
+                <h1 class="homeheaders colorwhite">Place a Reservation:</h1>
+                    <p class="colorwhite font25 centertext">A phone call will be placed to confirm your reservation.</p>
                 <form action="#">
+                <form actifon="#">
                     <label>First Name:</label>
                         <input type="text" placeholder="Jane"><br/><br/>
                     <label>Last name:</label>
@@ -56,7 +57,7 @@
                     <label>Phone Number:</label>
                         <input type="tel" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br/><br/>
                     <label>Day:</label>
-                        <select id="Date" name="date" style="border-radius: 5px;">
+                        <select id="Date" name="date" class="borderradius">
                             <option>Monday</option>
                             <option>Tuesday</option>
                             <option>Wednesday</option>
@@ -64,23 +65,29 @@
                             <option>Friday</option>
                             <option>Saturday</option>
                         </select><br/><br/><br/>
-                    <input type="submit" class="forminput" value="Place your reservation! Click Here!">
+                    <input type="submit" value="Place your reservation! Click Here!">
                 </form>
             </div><br/>
-        </main> 
+			<div class="formboxgreen">
+				<h1 class="homeheaders">Contact Information:</h1>
+					<p class="font25 centertext">Phone: 123-456-7890</p>
+					<p class="font25 centertext">Email: Contact@TownRestaurant.com</p>
+				<br/>
+			</div>
+		<br/></main> 
             <footer class="sitefooter"><!-- Footer displays text at the bottom of the webpage -->
-                <h3 class="boldfont" style="color: rgb(215, 228, 194); padding: 5px 0px;">Contact Information:</h3>
+                <h3 class="boldfont footercontact">Contact Information:</h3>
                 <div class="footernav">
-                    <ul style="padding: 0" >
-                        <li style="border-right: none;"><a href="https://twitter.com">Twitter</a></li>
-                        <li style="border-right: none;"><a href="https://instagram.com">Instagram</a></li>
-                        <li style="border-right: none;"><a href="https://facebook.com">Facebook</a></li>
-                        <li style="float: right; border-right: none;"><a href="sitemap.html" class="nofont">Sitemap</a></li>
-                        <li style="float: right; border-right: none;"><a href="tel:123-456-7890" class="nofont">Call Us!</a></li>
-                        <li style="float: right; border-right: none; border-left: none;"><a href="mailto:Email@TownRestaurant.com" class="nofont">Email Us!</a></li>
+                    <ul class="ul0padding">
+                        <li class="noborder"><a href="https://twitter.com">Twitter</a></li>
+                        <li class="noborder"><a href="https://instagram.com">Instagram</a></li>
+                        <li class="noborder"><a href="https://facebook.com">Facebook</a></li>
+                        <li class="floatnoborder"><a href="sitemap.html" class="nofont">Sitemap</a></li>
+                        <li class="floatnoborder"><a href="tel:123-456-7890" class="nofont">Call Us!</a></li>
+                        <li class="floatnoborder" style="border: none;"><a href="mailto:Contact@TownRestaurant.com" class="nofont">Email Us!</a></li>
                     </ul>
                 </div>
-                    <p style="color:rgb(215, 228, 194);">GRA-310 Digital Graphic Design for Web, Chandler C. 6/21/2020<br/>
+                    <p class="lightgreen">GRA-310 Digital Graphic Design for Web, Chandler C. 6/28/2020<br/>
                     <a href="https://github.com/Chandoggie/Chandoggie.github.io">Source Available on GitHub</a>
                 </p>
             </footer>
